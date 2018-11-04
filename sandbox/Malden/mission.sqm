@@ -298,7 +298,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="pristine kiwi sandbox 2018-08-12";
+		briefingName="pristine kiwi sandbox 2018-11-04";
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
 		startWind=0.1;
