@@ -25,3 +25,9 @@
 //[] execVM "QS_icons.sqf"
 
 [] execVM "module_chatIntercept\init.sqf";
+
+_clientID = clientOwner;
+_UID = getPlayerUID player;
+_name = name player;
+checkForDatabase = [_clientID, _UID, _name];
+publicVariableServer "checkForDatabase";
